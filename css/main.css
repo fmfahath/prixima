@@ -39,7 +39,40 @@ img {
     width: 100%;
 }
 
-/* navbar---------------------------- */
+.btn {
+    padding: 9px 24px;
+}
+
+.btn-brand {
+    background-color: var(--main-bg-color);
+    color: white !important;
+    border-color: var(--main-bg-color);
+    font-weight: 500;
+    /* border-radius: 30px; */
+}
+
+.btn-brand:hover {
+    background-color: var(--main-bgdark-color);
+
+}
+
+.btn-outline-light {
+    background: transparent !important;
+    color: #ffff !important;
+}
+
+.btn-outline-light:hover {
+    border-color: var(--main-color) !important;
+}
+
+.bg-cover {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+/* navbar------------------------------------------- */
 
 .top-nav {
     background-color: var(--main-bg-color);
@@ -89,23 +122,6 @@ img {
     color: var(--main-color);
 }
 
-.btn {
-    padding: 9px 24px;
-}
-
-.btn-brand {
-    background-color: var(--main-bg-color);
-    color: white !important;
-    border-color: var(--main-bg-color);
-    font-weight: 500;
-    border-radius: 30px;
-}
-
-.btn-brand:hover {
-    background-color: var(--main-bgdark-color);
-
-}
-
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
     color: var(--main-color) !important;
@@ -126,3 +142,15 @@ img {
     color: var(--main-color) !important;
     font-size: 40px;
 } */
+
+
+/* slider----------------------------------------- */
+.slider1 {
+    background-color: rgba(12, 26, 56, 0.45);
+    background-image: url(/img/bg_banner1.jpg);
+}
+
+.slider2 {
+    background-color: rgba(12, 26, 56, 0.45);
+    background-image: url(/img/bg_banner2.jpg);
+}
