@@ -66,6 +66,7 @@ img {
 }
 
 .bg-cover {
+    background-color: rgba(12, 26, 56, 0.58);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -128,29 +129,50 @@ img {
 }
 
 
-/* .navbar-toggler {
-    color: var(--main-color) !important;
-    text-align: center !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    outline: none !important;
-    border: none !important;
+/* slider----------------------------------------- */
+.hero-slider-inner {
+    height: 80vh !important;
 }
 
-.navbar-toggler-icon i {
-    color: var(--main-color) !important;
-    font-size: 40px;
-} */
+.hero-slider-inner .carousel-item {
+    height: 100%;
+}
 
-
-/* slider----------------------------------------- */
 .slider1 {
-    background-color: rgba(12, 26, 56, 0.45);
+    height: 100% !important;
     background-image: url(/img/bg_banner1.jpg);
 }
 
 .slider2 {
-    background-color: rgba(12, 26, 56, 0.45);
+    height: 100% !important;
     background-image: url(/img/bg_banner2.jpg);
+}
+
+.btn-pre,
+.btn-next {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.595) !important;
+    color: var(--main-color) !important;
+}
+
+.btn-pre {
+    top: 50%;
+    left: 2%;
+}
+
+.btn-next {
+    top: 50%;
+    right: 2%;
+}
+
+.btn-pre i,
+.btn-next i {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.carousel-indicators button {
+    background-color: var(--main-color) !important;
 }
