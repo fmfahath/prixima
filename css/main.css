@@ -39,7 +39,41 @@ img {
     width: 100%;
 }
 
-/* navbar---------------------------- */
+.btn {
+    padding: 9px 24px;
+}
+
+.btn-brand {
+    background-color: var(--main-bg-color);
+    color: white !important;
+    border-color: var(--main-bg-color);
+    font-weight: 500;
+    /* border-radius: 30px; */
+}
+
+.btn-brand:hover {
+    background-color: var(--main-bgdark-color);
+
+}
+
+.btn-outline-light {
+    background: transparent !important;
+    color: #ffff !important;
+}
+
+.btn-outline-light:hover {
+    border-color: var(--main-color) !important;
+}
+
+.bg-cover {
+    background-color: rgba(12, 26, 56, 0.58);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+/* navbar------------------------------------------- */
 
 .top-nav {
     background-color: var(--main-bg-color);
@@ -89,40 +123,56 @@ img {
     color: var(--main-color);
 }
 
-.btn {
-    padding: 9px 24px;
-}
-
-.btn-brand {
-    background-color: var(--main-bg-color);
-    color: white !important;
-    border-color: var(--main-bg-color);
-    font-weight: 500;
-    border-radius: 30px;
-}
-
-.btn-brand:hover {
-    background-color: var(--main-bgdark-color);
-
-}
-
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
     color: var(--main-color) !important;
 }
 
 
-/* .navbar-toggler {
-    color: var(--main-color) !important;
-    text-align: center !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    outline: none !important;
-    border: none !important;
+/* slider----------------------------------------- */
+.hero-slider-inner {
+    height: 80vh !important;
 }
 
-.navbar-toggler-icon i {
+.hero-slider-inner .carousel-item {
+    height: 100%;
+}
+
+.slider1 {
+    height: 100% !important;
+    background-image: url(/img/bg_banner1.jpg);
+}
+
+.slider2 {
+    height: 100% !important;
+    background-image: url(/img/bg_banner2.jpg);
+}
+
+.btn-pre,
+.btn-next {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.595) !important;
     color: var(--main-color) !important;
-    font-size: 40px;
-} */
+}
+
+.btn-pre {
+    top: 50%;
+    left: 2%;
+}
+
+.btn-next {
+    top: 50%;
+    right: 2%;
+}
+
+.btn-pre i,
+.btn-next i {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.carousel-indicators button {
+    background-color: var(--main-color) !important;
+}
