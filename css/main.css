@@ -215,7 +215,7 @@ section {
 /* milestone-------------------------------------- */
 
 #milestone {
-    background: linear-gradient(rgba(0, 0, 0, 0.516), rgba(255, 77, 41, 0.667)), url(/img/project2.jpg);
+    background: linear-gradient(rgba(231, 46, 9, 0.526), rgba(255, 77, 41, 0.667)), url(/img/project2.jpg);
     background-blend-mode: normal !important;
     background-attachment: fixed;
 }
@@ -233,4 +233,54 @@ section {
     font-size: 22px;
     font-weight: 400;
     color: #ffff !important;
+}
+
+/* services----------------------------------------- */
+.service-caption {
+    color: var(--main-color) !important;
+    font-size: 18px;
+    margin: 0;
+}
+
+.service-heading {
+    color: var(--font-dark) !important;
+}
+
+.service-text {
+    max-width: 500px;
+    font-size: 18px;
+}
+
+.service-card {
+    padding: 20px;
+    background-color: transparent !important;
+    background-blend-mode: normal !important;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease !important;
+}
+
+.service-card:hover {
+    transform: scale(105%);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(rgba(0, 0, 0, 0.616), rgba(255, 77, 41, 0.767)), url(/img/project4.jpg);
+}
+
+.service-card:hover .service-card-heading,
+.service-card:hover .service-card-text {
+    color: #ffff;
+}
+
+.service-card img {
+    margin-bottom: 10px;
+    height: 90px;
+    width: 90px;
+}
+
+.service-card .service-card-heading {
+    font-size: 23px;
+    font-weight: 600;
+    color: var(--font-dark);
+    margin: 0;
 }
