@@ -72,10 +72,10 @@ section {
 
 .bg-cover {
     background-color: rgba(12, 26, 56, 0.58);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: multiply;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-blend-mode: multiply !important;
 }
 
 /* navbar------------------------------------------- */
@@ -210,4 +210,27 @@ section {
 .about-img img {
     max-height: 70vh !important;
     max-width: 70vh !important;
+}
+
+/* milestone-------------------------------------- */
+
+#milestone {
+    background: linear-gradient(rgba(0, 0, 0, 0.516), rgba(255, 77, 41, 0.667)), url(/img/project2.jpg);
+    background-blend-mode: normal !important;
+    background-attachment: fixed;
+}
+
+.milestone-count {
+    font-size: 85px;
+    font-weight: 600;
+    color: #ffff !important;
+    margin: 0;
+    line-height: 1;
+
+}
+
+.milestone-text {
+    font-size: 22px;
+    font-weight: 400;
+    color: #ffff !important;
 }
