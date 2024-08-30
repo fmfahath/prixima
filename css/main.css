@@ -239,6 +239,8 @@ section {
 .service-caption {
     color: var(--main-color) !important;
     font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
     margin: 0;
 }
 
@@ -283,4 +285,46 @@ section {
     font-weight: 600;
     color: var(--font-dark);
     margin: 0;
+}
+
+
+/* portfolio----------------------------------- */
+.card-list .card-item {
+    position: relative;
+    max-width: 600px;
+}
+
+
+
+.card-item-overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(rgba(124, 124, 124, 0.0), rgba(9, 32, 50, 0.956));
+}
+
+.card-item .card-item-text h2,
+.card-item .card-item-text p {
+    color: #ffff !important;
+    margin: 0;
+}
+
+.card-item .card-item-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.card-item .card-item-text p::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 2px;
+    background: var(--main-color);
+    margin-right: 10px;
+    vertical-align: middle;
 }
