@@ -36,7 +36,12 @@ a {
 }
 
 img {
+    height: 100%;
     width: 100%;
+}
+
+section {
+    padding: 60px 30px;
 }
 
 .btn {
@@ -175,4 +180,34 @@ img {
 
 .carousel-indicators button {
     background-color: var(--main-color) !important;
+}
+
+/* about------------------------------------------- */
+.about-card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.about-card img {
+    height: 90px;
+    width: 90px;
+}
+
+.about-card .heading {
+    font-size: 33px;
+    font-weight: 600;
+    color: var(--font-dark);
+    margin: 0;
+}
+
+.about-card .text {
+    margin: 0;
+    font-size: 20px;
+}
+
+.about-img img {
+    max-height: 70vh !important;
+    max-width: 70vh !important;
 }
