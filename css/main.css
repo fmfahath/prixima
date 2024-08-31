@@ -481,10 +481,18 @@ section {
 }
 
 .review-card .review-card-content p i {
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 300;
     color: var(--main-color);
     opacity: 0.5;
+}
+
+.review-slide-container .bxs-quote-left {
+    margin-right: 5px;
+}
+
+.review-slide-container .bxs-quote-right {
+    margin-left: 5px;
 }
 
 .review-card .review-card-content {
