@@ -233,7 +233,7 @@ section {
 /* milestone-------------------------------------- */
 
 #milestone {
-    background: linear-gradient(rgba(231, 46, 9, 0.526), rgba(255, 77, 41, 0.667)), url(/../../img/project2.jpg);
+    background: linear-gradient(rgba(231, 46, 9, 0.526), rgba(255, 77, 41, 0.667)), url(../../img/project2.jpg);
     background-blend-mode: normal !important;
     background-attachment: fixed;
 }
@@ -621,7 +621,12 @@ section {
     margin: 0 auto !important;
 }
 
-/* form------------------------------------------ */
+/* modal------------------------------------------ */
+.modal-bg {
+    background-image: url(../../img/c2.jpg);
+    min-height: 300px;
+}
+
 .form-control:focus {
     box-shadow: none;
     border-color: var(--main-color);
@@ -672,5 +677,9 @@ section {
         font: 12px;
         padding: 5px 10px;
     }
+
+    /* .modal-bg {
+        max-height: 300px;
+    } */
 
 }
