@@ -547,7 +547,7 @@ section {
 }
 
 .blog-card h4 a {
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 10px !important;
     color: var(--font-dark) !important;
 }
@@ -558,4 +558,29 @@ section {
 
 .blog-card p {
     line-height: 1.5;
+}
+
+/* footer--------------------------------------- */
+.footer {
+    background: linear-gradient(rgba(9, 32, 50, 0.863), rgba(9, 32, 50, 0.932)), url(/img/bg_banner1.jpg);
+    background-blend-mode: normal !important;
+}
+
+.footer p {
+    font-size: 18px;
+    color: gray;
+    margin: 20px auto !important;
+    max-width: 600px;
+}
+
+.footer .social-links a {
+    margin-right: 5px;
+}
+
+.footer hr {
+    margin: 20px 0;
+}
+
+.footer .copyright p {
+    margin: 0 auto !important;
 }
