@@ -395,17 +395,25 @@ section {
 .swiper-btn-prev {
     left: 1%;
     top: 50%;
+    transform: translate(-1%, -50%);
 }
 
 .swiper-btn-next {
     right: 1%;
     top: 50%;
+    transform: translate(-1%, -50%);
 }
 
 /* team----------------------------------------- */
 
 .team-container {
-    max-width: 1200px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.team-member {
+    max-height: 280px;
+    max-width: 280px;
     margin: 0 auto;
 }
 
@@ -429,13 +437,23 @@ section {
 }
 
 .team-social-links {
+    width: 90%;
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: all 0.4s ease;
     opacity: 0;
 }
+
+.team-social-links a {
+    width: 30px;
+    height: 30px;
+}
+
 
 .team-member:hover .team-overlay {
     top: 0;
@@ -607,4 +625,52 @@ section {
 .form-control:focus {
     box-shadow: none;
     border-color: var(--main-color);
+}
+
+
+/* responsive------------------------------------- */
+@media (max-width: 576px) {
+
+    .btn-pre,
+    .btn-next {
+        height: 30px;
+        width: 30px;
+    }
+
+    .about-card {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .slider-wrapper .swiper-slide-button {
+        font-size: 30px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .swiper-btn-prev,
+    .swiper-btn-next {
+        top: 40%;
+        transform: translateY(-40%);
+    }
+
+    .team-container {
+        margin: 0 auto;
+    }
+
+    .team-member {
+        max-height: auto;
+        max-width: 200px;
+    }
+
+    #reviews-slide {
+        min-height: 450px;
+    }
+
+    .blog-card .blog-tag {
+        font: 12px;
+        padding: 5px 10px;
+    }
+
 }
