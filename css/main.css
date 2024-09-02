@@ -146,12 +146,12 @@ section {
 
 .slider1 {
     height: 100% !important;
-    background-image: url(/img/bg_banner1.jpg);
+    background-image: url(../../img/bg_banner1.jpg);
 }
 
 .slider2 {
     height: 100% !important;
-    background-image: url(/img/bg_banner2.jpg);
+    background-image: url(../../img/bg_banner2.jpg);
 }
 
 .btn-pre,
@@ -216,7 +216,7 @@ section {
 /* milestone-------------------------------------- */
 
 #milestone {
-    background: linear-gradient(rgba(231, 46, 9, 0.526), rgba(255, 77, 41, 0.667)), url(/img/project2.jpg);
+    background: linear-gradient(rgba(231, 46, 9, 0.526), rgba(255, 77, 41, 0.667)), url(/../../img/project2.jpg);
     background-blend-mode: normal !important;
     background-attachment: fixed;
 }
@@ -267,7 +267,7 @@ section {
 .service-card:hover {
     transform: scale(105%);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(rgba(0, 0, 0, 0.616), rgba(255, 77, 41, 0.767)), url(/img/project4.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.616), rgba(255, 77, 41, 0.767)), url(../../img/project4.jpg);
 }
 
 .service-card:hover .service-card-heading,
@@ -563,7 +563,7 @@ section {
 
 /* footer--------------------------------------- */
 .footer {
-    background: linear-gradient(rgba(9, 32, 50, 0.863), rgba(9, 32, 50, 0.932)), url(/img/bg_banner1.jpg);
+    background: linear-gradient(rgba(9, 32, 50, 0.863), rgba(9, 32, 50, 0.932)), url(../../img/bg_banner1.jpg);
     background-blend-mode: normal !important;
 }
 
