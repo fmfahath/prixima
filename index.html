@@ -89,14 +89,14 @@
     </nav>
 
     <!-- slider -->
-    <div id="hero-slider" class="carousel carousel-dark slide hero-slider">
+    <div id="hero-slider" class="carousel carousel-dark slide hero-slider" data-bs-ride="carousel">
         <div class="carousel-indicators mb-4">
             <button type="button" data-bs-target="#hero-slider" data-bs-slide-to="0" class="active" aria-current="true"
                 aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#hero-slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
         </div>
         <div class="carousel-inner hero-slider-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
+            <div class="carousel-item active" data-bs-interval="3000">
                 <div class="slider1 bg-cover d-flex align-items-center text-center text-sm-start">
                     <div class="container">
                         <div class="row">
@@ -112,7 +112,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="10000">
+            <div class="carousel-item" data-bs-interval="3000">
                 <div class="slider2 bg-cover d-flex align-items-center text-center">
                     <div class="container">
                         <div class="row ">
@@ -623,8 +623,7 @@
                 <div class="modal-body p-0">
                     <div class="container-fluid ">
                         <div class="row">
-                            <div class="col-lg-4 bg-cover"
-                                style="background-image: url(../../img/c2.jpg);min-height: 300px;"></div>
+                            <div class="col-lg-4 modal-bg bg-cover"></div>
                             <div class="col-lg-8">
                                 <form action="" class="row p-lg-5 p-2 gy-3">
                                     <div class="text-md-start text-center">
