@@ -1,3 +1,7 @@
+// Animate on Scroll----------------------------------------
+AOS.init();
+
+
 // portfolio - slider (swiper js)----------------------------
 const swiper = new Swiper('.slider-wrapper', {
     loop: true,

@@ -599,6 +599,7 @@ section {
 
 /* footer--------------------------------------- */
 .footer {
+    padding: 55px 30px !important;
     background: linear-gradient(rgba(9, 32, 50, 0.863), rgba(9, 32, 50, 0.932)), url(../../img/bg_banner1.jpg);
     background-blend-mode: normal !important;
 }
@@ -615,10 +616,12 @@ section {
 }
 
 .footer hr {
-    margin: 20px 0;
+    max-width: 350px;
+    margin: 20px auto;
 }
 
 .footer .copyright p {
+    font-size: 14px !important;
     margin: 0 auto !important;
 }
 
