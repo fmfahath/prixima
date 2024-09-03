@@ -1,4 +1,4 @@
-// portfolio - slider (swiper js)
+// portfolio - slider (swiper js)----------------------------
 const swiper = new Swiper('.slider-wrapper', {
     loop: true,
     grabCursor: true,
@@ -30,3 +30,19 @@ const swiper = new Swiper('.slider-wrapper', {
         },
     }
 });
+
+//navbar togglee button show/hide-----------------------------
+const navItems = document.querySelector(".navbar-nav")
+const contactBtn = document.querySelector(".nav-brand-btn")
+const navbarToggler = document.querySelector(".navbar-toggler")
+const navbarCollapse = document.querySelector(".navbar-collapse")
+
+navItems.addEventListener('click', () => {
+    navbarToggler.classList.add("collapsed")
+    navbarCollapse.classList.remove("show")
+})
+
+contactBtn.addEventListener('click', () => {
+    navbarToggler.classList.add("collapsed")
+    navbarCollapse.classList.remove("show")
+})
